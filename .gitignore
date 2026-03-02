@@ -208,3 +208,5 @@ __marimo__/
 
 
 processed_data/*
+logs/2*
+logs/best_model/models/model_epoch*

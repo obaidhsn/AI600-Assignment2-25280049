@@ -1,0 +1,90 @@
+[
+    {
+        "layer_name": "fc1",
+        "layer_type": "Linear",
+        "in_features": 922,
+        "out_features": 256
+    },
+    {
+        "layer_name": "bn1",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "drop1",
+        "layer_type": "Dropout"
+    },
+    {
+        "layer_name": "down",
+        "layer_type": "Linear",
+        "in_features": 256,
+        "out_features": 128
+    },
+    {
+        "layer_name": "rb1_fc1",
+        "layer_type": "Linear",
+        "in_features": 128,
+        "out_features": 128
+    },
+    {
+        "layer_name": "rb1_bn1",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "rb1_drop",
+        "layer_type": "Dropout"
+    },
+    {
+        "layer_name": "rb1_fc2",
+        "layer_type": "Linear",
+        "in_features": 128,
+        "out_features": 128
+    },
+    {
+        "layer_name": "rb1_bn2",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "rb2_fc1",
+        "layer_type": "Linear",
+        "in_features": 128,
+        "out_features": 128
+    },
+    {
+        "layer_name": "rb2_bn1",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "rb2_drop",
+        "layer_type": "Dropout"
+    },
+    {
+        "layer_name": "rb2_fc2",
+        "layer_type": "Linear",
+        "in_features": 128,
+        "out_features": 128
+    },
+    {
+        "layer_name": "rb2_bn2",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "fc2",
+        "layer_type": "Linear",
+        "in_features": 128,
+        "out_features": 64
+    },
+    {
+        "layer_name": "bn2",
+        "layer_type": "BatchNorm1d"
+    },
+    {
+        "layer_name": "drop2",
+        "layer_type": "Dropout"
+    },
+    {
+        "layer_name": "fc3",
+        "layer_type": "Linear",
+        "in_features": 64,
+        "out_features": 15
+    }
+]
